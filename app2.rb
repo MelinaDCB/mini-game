@@ -58,9 +58,6 @@ while player3.life_points >0 && (player1.life_points > 0 || player2.life_points 
             playerX.attacks(player3)
         end
     end
-    
-    
-
 end
 
 puts "  _______ _                           _   _ "
@@ -71,22 +68,10 @@ puts "    | |  | | | |  __/ |  __/ | | | (_| | |_|"
 puts "    |_|  |_| |_|\___|  \___|_| |_|\__,_| (_)"
 puts "                                            "
 
-
 if player3.life_points > 0
     puts "You win !"
 else
     puts "You lose..."
 end
-
-
-
-
-
-
-
-
-
-
-
 
 binding.pry
